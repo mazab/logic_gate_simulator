@@ -1,0 +1,23 @@
+5
+2
+SWITCH	1	SWITCH	296	175	
+SWITCH	2	SWITCH	305	320	
+1
+NOT	3	NOT	489	139	
+2
+AND2	4	AND_2	704	185	
+OR2	5	OR_2	691	313	
+1
+NAND2	11	NAND_2	813	234	
+1
+LED	14	LED	964	205	
+Connections:
+15      1	3	1
+16      3	4	1
+17      3	5	1
+18      2	4	2
+19      1	5	2
+20      4	11	1
+21      5	11	2
+22      11	14	1
+-1
